@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Bluunext';
+  src: url(bluunext.woff2), url(bluunext.woff);
+}
+body {
+  font-family: 'Bluunext';
+  font-size: 24px;
+  line-height: 1.25;
+  background-color: #edc7a9;
+  background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+  color: #000;
+  height: 100vh;
+  transition: background-color 0.5s;
+}
+a:hover {
+  opacity: .75;
+}
+h1 {
+  font-size: 24px;
+  margin: 10px 0 10px 0;
+}
+h2 {
+  font-size: 10vmin;
+}
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+}
+section a {
+  color: #000;
+}
+section div.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #3e78ed;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  margin: 10px;
+  cursor: pointer;
+}
+.overlay-left {
+  position:  fixed;
+  width:  15%;
+  left:  0;
+  height:  100vh;
+  cursor:  pointer;
+}
+.overlay-right {
+  position:  fixed;
+  width: 15%;
+  right: 0;
+  height:  100vh;
+  cursor:  pointer;
+}
